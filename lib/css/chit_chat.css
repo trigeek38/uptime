@@ -1,0 +1,61 @@
+#chatPanel {
+    position:absolute;
+    width:350px;
+    height:300px;
+    top:20px;
+    left:0px;
+    background:#efefef;
+    overflow:hidden;
+    border-top-left-radius: 5px 5px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: solid #cdcdcd .5em;
+    margin: 3px;
+    padding: 3px;
+}
+
+#chat-box {
+    width:345px; 
+    overflow: auto;
+    height: 250px;
+    overflow: scroll;
+}
+
+#chitchat-list {
+    list-style-type:none;
+    padding:10px;
+}
+
+#floatMenu {
+    position:absolute;
+    height:300px;
+    top:75px;
+    right:400px;
+}
+
+#chatHeader_orig{
+    position:absolute;
+    width:350px;
+    height:25px;
+    top:320px;
+    left:0px;
+    background:#3b587a;
+    text-align:center;
+    color:#FFFFFF;
+}
+
+#chatHeader {
+cursor: pointer;
+position:fixed;
+bottom:0px;
+right:0px;
+width: 10%;
+background: #efefef;
+/*border-top-left-radius: 5px;
+border-top-right-radius: 5px; */
+border: solid black .1em;
+border-bottom: solid black .1em;
+text-align: center;
+font-size: .7em;
+}

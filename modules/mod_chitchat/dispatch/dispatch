@@ -1,0 +1,3 @@
+[
+    {admin_chitchats, ["admin", "chitchats"], resource_admin_chitchats, []}
+].

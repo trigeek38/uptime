@@ -1,0 +1,34 @@
+% Zotonic site configuration for uptime.
+[
+    % This site is enabled or not.
+    {enabled, true},
+
+    % Atomic hostname, MUST be equal to the directory name of this site.
+    {host, uptime},
+
+    % Hostname on which this site runs
+    {hostname, "uptime.5nineshq.com:8000"},
+
+    % Aliases which should redirect to the primary hostname
+    %{hostalias, "www.example.com"},
+    %{hostalias, "example.com"},
+
+    % PostgreSQL database connection
+    {dbhost, "127.0.0.1"},
+    {dbport, 5432},
+    {dbuser, "zotonic"},
+    {dbpassword, "zotonic"},
+    {dbdatabase, "uptime"},
+    {dbschema, "public"},
+
+    % Password for the 'admin' user.
+    {admin_password, "admin"},
+    {admin_email, "jeff.5nines@gmail.com"},
+    {title, "Uptime"},
+    {subtitle, "Things that matter"},
+
+    {rsc_log_dir, "/home/jbell/zotonic/priv/sites/uptime/files/logs/"},
+
+    % What skeleton site this site is based on; for installing the initial data.
+    {skeleton, empty}
+].

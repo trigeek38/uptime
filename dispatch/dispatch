@@ -1,0 +1,11 @@
+%% Put your dispatch rules here.
+
+[
+    {home,      [],	       		resource_template,  	[ {template, "home.tpl"} ]},
+    {terms,     ["terms"],		resource_template,  	[ {template, "terms.tpl"} ]},
+    {privacy,   ["privacy"],		resource_template,  	[ {template, "privacy.tpl"} ]},
+    {grid,      ["grid"],      		resource_template,  	[ {template, "grid.tpl"} ]},
+    {modality,  ["modality", id],	resource_page, 		[ {template, "modality_details.tpl"}, {cat, modality} ]},
+    {edit_node, ["node", "edit", id],  	resource_page, 		[ {template, "edit_node.tpl"}, {cat, node} ]}
+].
+
